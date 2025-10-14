@@ -27,4 +27,4 @@ Read lab instructions on D2L
 - then it will connect to each instance to do the tasks
 
 ## A screenshot of the rendered html page from one of your servers
-![image]("Screenshot 2025-10-14 160209.png")
+![image](Screenshot 2025-10-14 160209.png)
