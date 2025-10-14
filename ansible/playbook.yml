@@ -6,7 +6,7 @@
         state: present
     - name: create directory structure for web documents
       ansible.builtin.file:
-        path: /web
+        path: /web/html
         state: directory
         mode: '0755'
     - name: copy nginx conf file to server
@@ -22,7 +22,7 @@
     - name: Generate index.html file from template
       ansible.builtin.template:
         src: templates/index.html.j2
-        dest: /web/index.html
+        dest: /web/html/index.html
         mode: '0644'
     - name: reload nginx service
       ansible.builtin.service:
